@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #43a047;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+nav a {
+    color: #1e3a8a;
+    font-size: 13px;
+    margin: 0 6px;
+}
+
+.container {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    min-height: 480px;
+}
+
+.sidebar {
+    width: 250px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 6px;
+}
+
+.sidebar a {
+    color: blue;
+    font-size: 13px;
+}
+
+.content {
+    flex: 1;
+}
+
+.post {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.post:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.post h3 {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.post img {
+    width: 200px;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.post p {
+    font-size: 13px;
+    color: #333333;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
